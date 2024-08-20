@@ -4,6 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import Main from "./Components/Main/Main";
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 type Props = {};
 
@@ -12,6 +13,7 @@ function App({}: Props) {
     <>
       <Header />
       <Main />
+      <Footer />
     </>
   );
 }
